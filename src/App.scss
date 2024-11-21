@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  //background-color: red;
+}
+
+.filter {
+  height: 30px;
+  align-self: top, center;
+  text-align: 'left';
+}
+
+.first-tree-style{
+  //background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Container {
+  //column-count: 1;
+  //column-width: 2rem;
+  //width: 100vw;
+  //background-color: red;
+  
+}
+
+.SlideTree{
+  //background-color: blue;
+}
+
+.TreeBorder{
+  border: 0;
+  border-radius: 10px;
+}
+
+.tree{
+  width: 100vw;
+}
+
+.rightSideBar{
+  max-width:200px;
+}
