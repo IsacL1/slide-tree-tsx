@@ -5,10 +5,10 @@ export const SlideTree: SkillType[] = [
     {
         id: "soyale8",
         title: "Soyale",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "E"
-        },
+        },*/
         tooltip: {
             content: "A backward slide, hip internal rotation, one foot on external edge",
             direction: "bottom"
@@ -18,22 +18,22 @@ export const SlideTree: SkillType[] = [
             {
                 id: "soyale4",
                 title: "Soyale 4 wheels",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "D"
-                },
+                },*/
                 tooltip: {
-                    content: "Basic on soyale 8 wheels, sliding wheel on 4 wheels, supporting on toe"
+                    content: "Basic on soyale 8 wheels, sliding wheel on 4 wheels, supporting on toe",
                 },
                 optional: false,
                 children: [
                     {
                         id: "soyalet",
                         title: "Soyale Toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: "Basic on soyale 4 wheels, sliding wheel on toe, supporting on 4 wheels"
                         },
@@ -41,10 +41,10 @@ export const SlideTree: SkillType[] = [
                             {
                                 id: "soyalett",
                                 title: "Soyale Toe Toe",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, both of sliding and supporting are on toe"
                                 },
@@ -53,10 +53,10 @@ export const SlideTree: SkillType[] = [
                             {
                                 id: "soyaleth",
                                 title: "Soyale Toe Heel",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, sliding wheel on toe, supporting on heel"
                                 },
@@ -68,10 +68,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "soyaleh",
                         title: "Soyale Heel Toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: "Basic on soyale 4 wheels, sliding wheel on heel, supporting on toe"
                         },
@@ -80,10 +80,10 @@ export const SlideTree: SkillType[] = [
                             {
                                 id: "soyaleht",
                                 title: "Soyale Heel Toe",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, sliding wheel on heel, supporting on toe"
                                 },
@@ -93,10 +93,10 @@ export const SlideTree: SkillType[] = [
                             {
                                 id: "soyalehh",
                                 title: "Soyale Heel Heel",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, sboth of sliding and supporting are on heel"
                                 },
@@ -112,10 +112,10 @@ export const SlideTree: SkillType[] = [
     {
         id: "acid4",
         title: "Acid 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "E"
-        },
+        },*/
         tooltip: {
             direction: "top",
             content: "E"
@@ -125,10 +125,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "acidt",
                 title: "Acid toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -137,10 +137,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "acidtt",
                         title: "Acid toe toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -150,10 +150,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "acidht",
                         title: "Acid heel toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -163,10 +163,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "xacid4",
                         title: "Cross Acid 4 wheels",
-                        attribute: {
+                        /*attribute: {
                             family: "2",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -175,10 +175,10 @@ export const SlideTree: SkillType[] = [
                             {
                                 id: "xacidt",
                                 title: "Cross Acid toe",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     direction: "top",
                                     content: ""
@@ -188,10 +188,10 @@ export const SlideTree: SkillType[] = [
                                     {
                                         id: "xacidtt",
                                         title: "Cross Acid toe toe",
-                                        attribute: {
+                                        /*attribute: {
                                             family: "2",
                                             level: "C2"
-                                        },
+                                        },*/
                                         tooltip: {
                                             content: ""
                                         },
@@ -201,10 +201,10 @@ export const SlideTree: SkillType[] = [
                                     {
                                         id: "xacidht",
                                         title: "Cross Acid heel toe",
-                                        attribute: {
+                                        /*attribute: {
                                             family: "2",
                                             level: "C"
-                                        },
+                                        },*/
                                         tooltip: {
                                             content: ""
                                         },
@@ -216,10 +216,10 @@ export const SlideTree: SkillType[] = [
                             {
                                 id: "xacidh",
                                 title: "Cross Acid heel",
-                                attribute: {
+                                /*attribute: {
                                     family: "2",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: ""
                                 },
@@ -228,10 +228,10 @@ export const SlideTree: SkillType[] = [
                                     {
                                         id: "xacidhh",
                                         title: "Cross Acid heel heel",
-                                        attribute: {
+                                        /*attribute: {
                                             family: "2",
                                             level: "C"
-                                        },
+                                        },*/
                                         tooltip: {
                                             content: ""
                                         },
@@ -241,10 +241,10 @@ export const SlideTree: SkillType[] = [
                                     {
                                         id: "xacidth",
                                         title: "Cross Acid toe heel",
-                                        attribute: {
+                                        /*attribute: {
                                             family: "2",
                                             level: "C"
-                                        },
+                                        },*/
                                         tooltip: {
                                             content: ""
                                         },
@@ -260,10 +260,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "acidh",
                 title: "Acid heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -272,10 +272,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "acidth",
                         title: "Acid toe heel",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -285,10 +285,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "acidhh",
                         title: "Acid heel heel",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -300,10 +300,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "xacid4",
                 title: "Cross Acid 4 wheels",
-                attribute: {
+                /*attribute: {
                     family: "2",
                     level: "D"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -315,10 +315,10 @@ export const SlideTree: SkillType[] = [
     {
         id: "ps8",
         title: "Powerslide",
-        attribute: {
+        /*attribute: {
             family: "4",
             level: "E"
-        },
+        },*/
         tooltip: {
             content: ""
         },
@@ -327,10 +327,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "psh",
                 title: "Powerslide heel",
-                attribute: {
+                /*attribute: {
                     family: "4",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -339,10 +339,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "psht",
                         title: "Powerslide heel toe",
-                        attribute: {
+                        /*attribute: {
                             family: "4",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -352,10 +352,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "pshh",
                         title: "Powerslide heel heel",
-                        attribute: {
+                        /*attribute: {
                             family: "4",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -367,10 +367,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "pst",
                 title: "Powerslide toe",
-                attribute: {
+                /*attribute: {
                     family: "5",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -379,10 +379,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "pstt",
                         title: "Powerslide toe toe",
-                        attribute: {
+                        /*attribute: {
                             family: "5",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -392,10 +392,10 @@ export const SlideTree: SkillType[] = [
                     {
                         id: "psth",
                         title: "Powerslide toe heel",
-                        attribute: {
+                        /*attribute: {
                             family: "5",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -409,10 +409,10 @@ export const SlideTree: SkillType[] = [
     {
         id: "soul4",
         title: "Soul 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "4",
             level: "E"
-        },
+        },*/
         tooltip: {
             content: ""
         },
@@ -421,10 +421,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "soulh",
                 title: "Soul heel",
-                attribute: {
+                /*attribute: {
                     family: "4",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -434,10 +434,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "soult",
                 title: "Soul toe",
-                attribute: {
+                /*attribute: {
                     family: "4",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -449,10 +449,10 @@ export const SlideTree: SkillType[] = [
     {
         id: "es4",
         title: "Ernsui 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "C"
-        },
+        },*/
         tooltip: {
             content: "A backward slide, one leg hip external rotation and press on internal edge"
         },
@@ -461,10 +461,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "estt",
                 title: "Ernsui toe toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, both of sliding and supporting are on toe"
                 },
@@ -474,10 +474,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "esht",
                 title: "Ernsui heel toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, sliding on heel and supporting on toe"
                 },
@@ -487,10 +487,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "esth",
                 title: "Ernsui toe heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, sliding on toe and supporting on heel"
                 },
@@ -500,10 +500,10 @@ export const SlideTree: SkillType[] = [
             {
                 id: "eshh",
                 title: "Ernsui heel heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, both of sliding and supporting are on heel"
                 },
@@ -518,10 +518,10 @@ export const levelE: SkillType[] = [
     {
         id: "soyale8",
         title: "Soyale",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "E"
-        },
+        },*/
         tooltip: {
             content: "A backward slide, hip internal rotation, one foot on external edge",
             direction: "bottom"
@@ -531,10 +531,10 @@ export const levelE: SkillType[] = [
             {
                 id: "soyale4",
                 title: "Soyale 4 wheels",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "D"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on soyale 8 wheels, sliding wheel on 4 wheels, supporting on toe"
                 },
@@ -543,10 +543,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "soyalet",
                         title: "Soyale Toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: "Basic on soyale 4 wheels, sliding wheel on toe, supporting on 4 wheels"
                         },
@@ -554,10 +554,10 @@ export const levelE: SkillType[] = [
                             {
                                 id: "soyalett",
                                 title: "Soyale Toe Toe",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, both of sliding and supporting are on toe"
                                 },
@@ -566,10 +566,10 @@ export const levelE: SkillType[] = [
                             {
                                 id: "soyaleth",
                                 title: "Soyale Toe Heel",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, sliding wheel on toe, supporting on heel"
                                 },
@@ -581,10 +581,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "soyaleh",
                         title: "Soyale Heel Toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: "Basic on soyale 4 wheels, sliding wheel on heel, supporting on toe"
                         },
@@ -593,10 +593,10 @@ export const levelE: SkillType[] = [
                             {
                                 id: "soyaleht",
                                 title: "Soyale Heel Toe",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, sliding wheel on heel, supporting on toe"
                                 },
@@ -606,10 +606,10 @@ export const levelE: SkillType[] = [
                             {
                                 id: "soyalehh",
                                 title: "Soyale Heel Heel",
-                                attribute: {
+                                /*attribute: {
                                     family: "1",
                                     level: "D"
-                                },
+                                },*/
                                 tooltip: {
                                     content: "Basic on soyale 4 wheels, sboth of sliding and supporting are on heel"
                                 },
@@ -625,10 +625,10 @@ export const levelE: SkillType[] = [
     {
         id: "acid4",
         title: "Acid 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "E"
-        },
+        },*/
         tooltip: {
             direction: "top",
             content: "E"
@@ -638,10 +638,10 @@ export const levelE: SkillType[] = [
             {
                 id: "acidt",
                 title: "Acid toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -650,10 +650,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "acidtt",
                         title: "Acid toe toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -663,10 +663,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "acidht",
                         title: "Acid heel toe",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -676,10 +676,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "acid4",
                         title: "href='soyalett'",
-                        attribute: {
+                        /*attribute: {
                             family: "1",
                             level: "D"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         }, children: []
@@ -691,10 +691,10 @@ export const levelE: SkillType[] = [
     {
         id: "soul4",
         title: "Soul 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "4",
             level: "E"
-        },
+        },*/
         tooltip: {
             content: ""
         },
@@ -703,10 +703,10 @@ export const levelE: SkillType[] = [
             {
                 id: "soulh",
                 title: "Soul heel",
-                attribute: {
+                /*attribute: {
                     family: "4",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -716,10 +716,10 @@ export const levelE: SkillType[] = [
             {
                 id: "soult",
                 title: "Soul toe",
-                attribute: {
+                /*attribute: {
                     family: "4",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -731,10 +731,10 @@ export const levelE: SkillType[] = [
     {
         id: "ps8",
         title: "Powerslide",
-        attribute: {
+        /*attribute: {
             family: "4",
             level: "E"
-        },
+        },*/
         tooltip: {
             content: ""
         },
@@ -743,10 +743,10 @@ export const levelE: SkillType[] = [
             {
                 id: "psh",
                 title: "Powerslide heel",
-                attribute: {
+                /*attribute: {
                     family: "4",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -755,10 +755,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "psht",
                         title: "Powerslide heel toe",
-                        attribute: {
+                        /*attribute: {
                             family: "4",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -768,10 +768,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "pshh",
                         title: "Powerslide heel heel",
-                        attribute: {
+                        /*attribute: {
                             family: "4",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -783,10 +783,10 @@ export const levelE: SkillType[] = [
             {
                 id: "pst",
                 title: "Powerslide toe",
-                attribute: {
+                /*attribute: {
                     family: "5",
                     level: "E"
-                },
+                },*/
                 tooltip: {
                     content: ""
                 },
@@ -795,10 +795,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "pstt",
                         title: "Powerslide toe toe",
-                        attribute: {
+                        /*attribute: {
                             family: "5",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -808,10 +808,10 @@ export const levelE: SkillType[] = [
                     {
                         id: "psth",
                         title: "Powerslide toe heel",
-                        attribute: {
+                        /*attribute: {
                             family: "5",
                             level: "E"
-                        },
+                        },*/
                         tooltip: {
                             content: ""
                         },
@@ -828,10 +828,10 @@ export const levelC: SkillType[] = [
     {
         id: "es4",
         title: "Ernsui 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "C"
-        },
+        },*/
         tooltip: {
             content: "A backward slide, one leg hip external rotation and press on internal edge"
         },
@@ -840,10 +840,10 @@ export const levelC: SkillType[] = [
             {
                 id: "estt",
                 title: "Ernsui toe toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, both of sliding and supporting are on toe"
                 },
@@ -853,10 +853,10 @@ export const levelC: SkillType[] = [
             {
                 id: "esht",
                 title: "Ernsui heel toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, sliding on heel and supporting on toe"
                 },
@@ -866,10 +866,10 @@ export const levelC: SkillType[] = [
             {
                 id: "esth",
                 title: "Ernsui toe heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, sliding on toe and supporting on heel"
                 },
@@ -879,10 +879,10 @@ export const levelC: SkillType[] = [
             {
                 id: "eshh",
                 title: "Ernsui heel heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "B"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Ernsui 4 wheels, both of sliding and supporting are on heel"
                 },
@@ -897,10 +897,10 @@ export const levelB: SkillType[] = [
     {
         id: "xes4",
         title: "Cross Ernsui 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "B"
-        },
+        },*/
         tooltip: {
             content: "A skill like Ernsui but cross"
         },
@@ -909,10 +909,10 @@ export const levelB: SkillType[] = [
             {
                 id: "xest",
                 title: "Cross Ernsui toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding tip toe"
                 },
@@ -922,10 +922,10 @@ export const levelB: SkillType[] = [
             {
                 id: "xesh",
                 title: "Cross Ernsui heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding on heel"
                 },
@@ -935,10 +935,10 @@ export const levelB: SkillType[] = [
             {
                 id: "xestt",
                 title: "Cross Ernsui toe toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding tip toe"
                 },
@@ -948,10 +948,10 @@ export const levelB: SkillType[] = [
             {
                 id: "xesht",
                 title: "Cross Ernsui heel toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding tip toe"
                 },
@@ -961,10 +961,10 @@ export const levelB: SkillType[] = [
             {
                 id: "xeshh",
                 title: "Cross Ernsui heel heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, both of slidingand support are heel. Btw, it is theory exist"
                 },
@@ -979,10 +979,10 @@ export const levelA: SkillType[] = [
     {
         id: "xes4",
         title: "Cross Ernsui 4 wheels",
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "B"
-        },
+        },*/
         tooltip: {
             content: "A skill like Ernsui but cross"
         },
@@ -991,10 +991,10 @@ export const levelA: SkillType[] = [
             {
                 id: "xest",
                 title: "Cross Ernsui toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding tip toe"
                 },
@@ -1004,10 +1004,10 @@ export const levelA: SkillType[] = [
             {
                 id: "xesh",
                 title: "Cross Ernsui heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding on heel"
                 },
@@ -1017,10 +1017,10 @@ export const levelA: SkillType[] = [
             {
                 id: "xestt",
                 title: "Cross Ernsui toe toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding tip toe"
                 },
@@ -1030,10 +1030,10 @@ export const levelA: SkillType[] = [
             {
                 id: "xesht",
                 title: "Cross Ernsui heel toe",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, sliding tip toe"
                 },
@@ -1043,10 +1043,10 @@ export const levelA: SkillType[] = [
             {
                 id: "xeshh",
                 title: "Cross Ernsui heel heel",
-                attribute: {
+                /*attribute: {
                     family: "1",
                     level: "A"
-                },
+                },*/
                 tooltip: {
                     content: "Basic on Cross Ernsui 4 wheels, both of slidingand support are heel. Btw, it is theory exist"
                 },

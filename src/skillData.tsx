@@ -9,10 +9,10 @@ export const SlideTree: SkillType[] = [
             content: "A backward slide, hip internal rotation, one foot on external edge",
             direction: "bottom"
         },
-        attribute: {
+        /*attribute: {
             family: "1",
             level: "E"
-        },
+        },*/
         optional: true,
         children: []
     }
