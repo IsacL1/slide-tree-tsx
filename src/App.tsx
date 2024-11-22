@@ -11,7 +11,7 @@ import {
   SkillGroupDataType,
   NodeSelectEvent,
 } from "beautiful-skill-tree";
-import { SlideTree } from './testSkillData';
+import { SlideTree,SlideTree2 } from './testSkillData';
 //import { SlideTree } from './skillData';
 
 function App() {
@@ -55,6 +55,15 @@ function App() {
                       treeId="first-tree"
                       title="Slide Tree"
                       data={ SlideTree }
+                      collapsible
+                      description=""
+                    />
+                  </div>
+                  <div className="second-tree-style" >
+                    <SkillTree
+                      treeId="second-tree"
+                      title="Slide Tree"
+                      data={ SlideTree2 }
                       collapsible
                       description=""
                     />

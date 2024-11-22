@@ -1,6 +1,31 @@
 import React from 'react';
 import { SkillType } from "beautiful-skill-tree"
 
+/*
+Each tree group is independent
+
+*/
+/*
+Draft: Do not considedr slide length, only for sliding combination
+
+*/
+export const SlideTree2: SkillType[] = [
+    {
+        id: "xacid4",
+        title: "xacid4",
+        attribute: {
+            family: "1",
+            level: "E"
+        },
+        tooltip: {
+            content: "A backward slide, hip internal rotation, one foot on external edge",
+            direction: "bottom"
+        },
+        optional: true,
+        children: []
+    }
+]
+
 export const SlideTree: SkillType[] = [
     {
         id: "soyale8",
